@@ -1,0 +1,6 @@
+.card {
+    background-color: var(--card);
+    margin: 5px;
+    border: solid 1px var(--border);
+    min-width: 50%;
+}

@@ -1,5 +1,10 @@
-export function Card() {
+import styles from './Card.module.css'
+import type { CardProps } from './Card.types'
+
+export function Card({children}: CardProps) {
     return(
-        <div></div>
+        <div className={styles.card}>
+            {children}
+        </div>
     )
 }

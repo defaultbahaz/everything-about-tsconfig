@@ -1,0 +1,6 @@
+.ft {
+    width: 100vw;
+    height: 50px;
+    background-color: var(--card);
+    border-top: solid 1px var(--border);
+}
